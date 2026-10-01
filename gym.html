@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitGym - Plataforma Fitness</title>
+    <!-- Vinculación del CSS según indica la guía -->
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+
+    <!-- Encabezado / Navegación -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="icon">🏋️‍♂️</span> <strong>FitGym</strong>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" class="btn-nav active">Inicio</a></li>
+                    <li><a href="#proyecto">Nuestro Proyecto</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#consejos">Consejos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section id="inicio" class="hero-section">
+        <div class="container hero-grid">
+            <!-- Lado Izquierdo del Hero -->
+            <div class="hero-content">
+                <span class="badge">ENTRENA FUERTE, TRANSFORMA TU VIDA</span>
+                <h1>FitGym</h1>
+                <h2>Pequeños hábitos,<br>grandes cambios</h2>
+                <p>Plataforma para gestionar tus rutinas de entrenamiento, nutrición y rendimiento en el gimnasio.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#proyecto" class="btn btn-orange">Conoce nuestro proyecto</a>
+                    <a href="#" class="btn btn-outline">▶ Ver rutina demo</a>
+                </div>
+
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="dot"></span> Planes personalizados
+                    </div>
+                    <div class="feature-item">
+                        <span class="dot"></span> Seguimiento continuo
+                    </div>
+                    <div class="feature-item">
+                        <span class="dot"></span> Comunidad motivadora
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lado Derecho del Hero (Tarjeta/Imagen) -->
+            <div class="hero-card">
+                <div class="image-box">
+                    <img src="imagenes/imagenenn.webp" alt="Entrenamiento FitGym">
+                </div>
+                <div class="hero-card-banner">
+                    La disciplina también construye un cuerpo y mente fuerte.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nuestro Proyecto -->
+    <section id="proyecto" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestro Proyecto 🏋️‍♂️️</h2>
+                <p>FitGym integra tecnología y metodologías de entrenamiento para alcanzar tus objetivos físicos.</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-icon">💪</div>
+                    <h3>Musculación</h3>
+                    <p>Programas enfocados en hipertrofia y fuerza con equipamiento de alta calidad.</p>
+                    <button class="btn-card">Saber más</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-icon">🏃‍♂️</div>
+                    <h3>Cardio & HIIT</h3>
+                    <p>Entrenamientos de alta intensidad para maximizar quema de calorías y resistencia.</p>
+                    <button class="btn-card">Saber más</button>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-icon">🥗</div>
+                    <h3>Nutrición Deportiva</h3>
+                    <p>Planes de alimentación guiados para acompañar tu progreso en el gimnasio.</p>
+                    <button class="btn-card">Saber más</button>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>Seguimiento Digital</h3>
+                    <p>Monitoreo constante de medidas, peso y marcas de fuerza en la plataforma.</p>
+                    <button class="btn-card">Saber más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería con las 3 imágenes pequeñas en fila -->
+    <section id="galeria" class="section galeria-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Instalaciones y Entrenamientos 📸</h2>
+            </div>
+            
+            <div class="galeria-grid" style="display: flex !important; flex-direction: row !important; justify-content: center !important; align-items: center !important; gap: 15px !important;">
+                <img src="imagenes/8889.avif" alt="Zona de Pesas" style="width: 180px !important; height: 120px !important; object-fit: cover !important; border-radius: 8px !important; border: 2px solid #ff6600 !important;">
+                <img src="imagenes/cardio.avif" alt="Área de Cardio" style="width: 180px !important; height: 120px !important; object-fit: cover !important; border-radius: 8px !important; border: 2px solid #ff6600 !important;">
+                <img src="imagenes/55.jpg" alt="Entrenamiento Guiado" style="width: 180px !important; height: 120px !important; object-fit: cover !important; border-radius: 8px !important; border: 2px solid #ff6600 !important;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Consejos -->
+    <section id="consejos" class="section consejos-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Consejos para empezar en FitGym 🏋️‍♂️</h2>
+            </div>
+
+            <div class="consejos-grid">
+                <div class="consejos-list">
+                    <div class="consejo-item">
+                        <span class="num">1</span>
+                        <div>
+                            <h4>Define metas claras</h4>
+                            <p>Establece objetivos realistas a corto y largo plazo antes de entrenar.</p>
+                        </div>
+                    </div>
+                    <div class="consejo-item">
+                        <span class="num">2</span>
+                        <div>
+                            <h4>Prioriza la técnica sobre el peso</h4>
+                            <p>Aprende la postura correcta para evitar lesiones y optimizar resultados.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="consejo-box">
+                    <h4>Además, recuerda</h4>
+                    <ul>
+                        <li>✔ Descansa lo suficiente para la recuperación muscular.</li>
+                        <li>✔ La constancia supera a la intensidad esporádica.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer id="contacto">
+        <div class="container footer-content">
+            <p>&copy; Renzo Medina Escobedo.</p>
+            <p><a href="https://github.com" target="_blank" rel="noopener noreferrer">Visita nuestro repositorio en GitHub</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
